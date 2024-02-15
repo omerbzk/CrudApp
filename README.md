@@ -1,0 +1,3 @@
+Proje java spring boot framework ü kullanılarak yazılmıştır. Genel olarak temel CRUD operasyonlarını içermektedir. Öncelikle Hibernate kullanılarak product(book) ve category entity si oluşturulmuştur ve OneToMany ilişki kurulmuştur.
+Ardından Data Access katmanında bana generic repository sağlaması için jpa repository kullanılmıştır ve crud operasyonlar yazılmıştır. Sonrasında Servis katmanında bu oluşturulan metodlar kullanılmıştır ve ayrıca response ların daha iyi bir şekilde 
+ele alınabilmesi için Core katmanında Result sınıfı oluşturulmuştur ve service katmanına entegre edilmiştir.Bu sayede başarılı veya hatalı dönüşlerde daha anlaşılır bir response type sağlanmıştır. Sonrasında ise Controller katmanında endpointler oluşturulmuştur.
